@@ -20,7 +20,9 @@ app.use(express.static('public')); // Serve static files (e.g., React build)
 const transporter = nodemailer.createTransport({
   service: 'gmail', // Use your email service
    auth: {
+    // eslint-disable-next-line no-undef
     user: process.env.EMAIL_USER, // Your email
+    // eslint-disable-next-line no-undef
     pass: process.env.EMAIL_PASS, // Your app-specific password
   },
 });
@@ -41,7 +43,9 @@ app.post('/api/contact',
     const { name, email, message } = req.body;
 
     const mailOptions = {
+      // eslint-disable-next-line no-undef
       from: `"${name}" <${process.env.EMAIL_USER}>`, // Sender's email (user's email)
+      // eslint-disable-next-line no-undef
       to: process.env.EMAIL_USER, // Your email
       subject: `New Contact Form Submission from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
@@ -59,6 +63,7 @@ app.post('/api/contact',
 );
 
 // Start server
+// eslint-disable-next-line no-undef
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
