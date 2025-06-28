@@ -1,7 +1,7 @@
 import Webdev from "../assets/skills/Webdev.jpeg";
 import DataAnalytics  from "../assets/skills/Dataguy.png";
 import ForexTrader from "../assets/skills/Forex.jpeg";
-import Wordpress from '../assets/skills/Wordpress.png'
+import Wordpress from '../assets/skills/wordpress.png'
 
 
 
