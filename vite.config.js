@@ -7,5 +7,9 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-     base: "/portfolio-site"
+     base: "/portfolio-site",
+      esbuild: {
+      loader: { '.jsx': 'jsx' },
+      
+      }
 })
