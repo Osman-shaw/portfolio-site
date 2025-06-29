@@ -58,25 +58,25 @@ const Navbar = () => {
                 Home
               </a>
               <a
-                href="/About"
+                href="https://osman-shaw.github.io/portfolio-site/About"
                 className={`${textColor} ${hoverBg} px-5 py-3 transition duration-300 text-lg font-sans rounded-md`}
               >
                 About
               </a>
               <a
-                href="/contact"
+                href="https://osman-shaw.github.io/portfolio-site/contact"
                 className={`${textColor} ${hoverBg} px-5 py-3 transition duration-300 text-lg font-sans rounded-md`}
               >
                 Contact
               </a>
               <a
-                href="/service"
+                href="https://osman-shaw.github.io/portfolio-site/service"
                 className={`${textColor} ${hoverBg} px-5 py-3 transition duration-300 text-lg font-sans rounded-md`}
               >
                 Service
               </a>
               <a
-                href="/Project"
+                href="https://osman-shaw.github.io/portfolio-site/project"
                 className={`${textColor} ${hoverBg} px-5 py-3 transition duration-300 text-lg font-sans rounded-md`}
               >
                 Project
@@ -119,28 +119,28 @@ const Navbar = () => {
                 Home
               </a>
               <a
-                href="/About"
+                href="https://osman-shaw.github.io/portfolio-site/About"
                 className={`${textColor} ${hoverBg} px-5 py-3 transition duration-300 text-lg font-serif rounded-md`}
                 onClick={toggleMenu}
               >
                 About
               </a>
               <a
-                href="/contact"
+                href="https://osman-shaw.github.io/portfolio-site/contact"
                 className={`${textColor} ${hoverBg} px-5 py-3 transition duration-300 text-lg font-sans rounded-md`}
                 onClick={toggleMenu}
               >
                 Contact
               </a>
               <a
-                href="/service"
+                href="https://osman-shaw.github.io/portfolio-site/service"
                 className={`${textColor} ${hoverBg} px-5 py-3 transition duration-300 text-lg font-sans rounded-md`}
                 onClick={toggleMenu}
               >
                 Service
               </a>
               <a
-                href="/Project"
+                href="https://osman-shaw.github.io/portfolio-site/Project"
                 className={`${textColor} ${hoverBg} px-5 py-3 transition duration-300 text-lg font-sans rounded-md`}
                 onClick={toggleMenu}
               >
