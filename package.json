@@ -2,14 +2,13 @@
   "name": "portfolio-site",
   "private": true,
   "version": "0.0.0",
-  "home": "https://Osman-shaw.github.io/portfolio-site",
   "type": "module",
-  "main": "main.jsx",
+  "main": "main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "start": "node dist/main.jsx",
-    "lint": "eslint .",
+    "lint":  "eslint .",
     "preview": "vite preview"
 
   },
