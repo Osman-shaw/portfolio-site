@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
   ],
     // eslint-disable-next-line no-undef
-    base: process.env.VITE_BASE_PATH || '/', // Set base path for deployment
+    base: process.env.VITE_BASE_PATH || '/portfolio-site', // Set base path for deployment
   server: {
     // eslint-disable-next-line no-undef
     port: process.env.PORT || 3000, // Use PORT from .env or default to 3000
